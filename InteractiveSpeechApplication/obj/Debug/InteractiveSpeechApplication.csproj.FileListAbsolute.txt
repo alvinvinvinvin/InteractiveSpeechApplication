@@ -1,0 +1,6 @@
+c:\users\alvin\documents\visual studio 2015\Projects\InteractiveSpeechApplication\InteractiveSpeechApplication\bin\Debug\InteractiveSpeechApplication.exe.config
+c:\users\alvin\documents\visual studio 2015\Projects\InteractiveSpeechApplication\InteractiveSpeechApplication\bin\Debug\InteractiveSpeechApplication.exe
+c:\users\alvin\documents\visual studio 2015\Projects\InteractiveSpeechApplication\InteractiveSpeechApplication\bin\Debug\InteractiveSpeechApplication.pdb
+c:\users\alvin\documents\visual studio 2015\Projects\InteractiveSpeechApplication\InteractiveSpeechApplication\obj\Debug\InteractiveSpeechApplication.csprojResolveAssemblyReference.cache
+c:\users\alvin\documents\visual studio 2015\Projects\InteractiveSpeechApplication\InteractiveSpeechApplication\obj\Debug\InteractiveSpeechApplication.exe
+c:\users\alvin\documents\visual studio 2015\Projects\InteractiveSpeechApplication\InteractiveSpeechApplication\obj\Debug\InteractiveSpeechApplication.pdb
