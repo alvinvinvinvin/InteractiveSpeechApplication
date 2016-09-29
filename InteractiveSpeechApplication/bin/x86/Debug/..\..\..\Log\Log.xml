@@ -1,0 +1,16 @@
+<LOG>
+  <SESSION>
+    <SAY>{S_Hello} Hello, this is Eliza Corp calling.</SAY>
+    <ASK NAME="NAME" RESPONSE="">{P_Name} What is your name?</ASK>
+    <ASK NAME="DO_YOU_MIND_QUESTIONS" RESPONSE="">{} , {P_Questions} may I ask you a few questions?</ASK>
+    <SAY>{S_Questions} Great! The following questions are about the interview process you just went through.</SAY>
+    <ASK NAME="INTERVIEW_LENGTH" RESPONSE="">{P_InterviewLength} How long did the interview take? </ASK>
+    <ASK NAME="" RESPONSE="">{P_WentWell} Do you think it went well? </ASK>
+    <ASK NAME="REMEMBER_INTERVIEWERS" RESPONSE="">{P_RememberInterviewers} Do you remember whom you spoke with? </ASK>
+    <ASK NAME="WHO_INTERVIEWED" RESPONSE="">{P_WhomSpokeTo} Whom did you speak with? </ASK>
+    <ASK NAME="ANSWERED_ALL" RESPONSE="">{P_AnsweredQuestions} Did they answer all your questions? </ASK>
+    <TRANSFER DATE="Thursday, September 29, 2016" CURRENT_TIME="03:27:42" VALID="FALSE" />
+    <SAY>{S_OutsideHours} If you have any questions about the interview please give us a call.</SAY>
+    <SAY>{S_Goodbye_PM2} We hope to be seeing you soon. Good luck and have a good night, {}.</SAY>
+  </SESSION>
+</LOG>

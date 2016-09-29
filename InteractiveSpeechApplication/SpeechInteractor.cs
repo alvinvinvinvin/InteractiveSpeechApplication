@@ -280,7 +280,9 @@ namespace InteractiveSpeechApplication
         /// <returns></returns>
         private static bool ignoreCaseEqual(string a, string b)
         {
-            return a.Equals(b, StringComparison.CurrentCultureIgnoreCase);
+			if (a == null || b == null) return false;
+			bool result = a.Equals(b, StringComparison.InvariantCultureIgnoreCase);
+			return result;
         }
 
 

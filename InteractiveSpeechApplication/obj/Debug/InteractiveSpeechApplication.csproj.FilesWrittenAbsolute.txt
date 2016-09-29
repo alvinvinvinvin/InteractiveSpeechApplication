@@ -1,0 +1,6 @@
+/Users/hanchen/Documents/InteractiveSpeechApplication/InteractiveSpeechApplication/obj/Debug/.NETFramework,Version=v4.5.2.AssemblyAttribute.cs
+/Users/hanchen/Documents/InteractiveSpeechApplication/InteractiveSpeechApplication/bin/Debug/InteractiveSpeechApplication.exe.config
+/Users/hanchen/Documents/InteractiveSpeechApplication/InteractiveSpeechApplication/bin/Debug/InteractiveSpeechApplication.exe.mdb
+/Users/hanchen/Documents/InteractiveSpeechApplication/InteractiveSpeechApplication/bin/Debug/InteractiveSpeechApplication.exe
+/Users/hanchen/Documents/InteractiveSpeechApplication/InteractiveSpeechApplication/obj/Debug/InteractiveSpeechApplication.exe
+/Users/hanchen/Documents/InteractiveSpeechApplication/InteractiveSpeechApplication/obj/Debug/InteractiveSpeechApplication.exe.mdb
