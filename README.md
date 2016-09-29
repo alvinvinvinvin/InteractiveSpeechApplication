@@ -14,7 +14,7 @@ option 1 because it will perform more functionalities for testing purpose.
 
 ##Assumption 2
 
-The path for generate >log file is under >AppDomain.CurrentDomain.BaseDirectory. I manually copied the file to >Log folder
+The path for generate `log` file is under `AppDomain.CurrentDomain.BaseDirectory`. I manually copied the file to `Log` folder
 for reviewing convenience.
 
 Thank you!
