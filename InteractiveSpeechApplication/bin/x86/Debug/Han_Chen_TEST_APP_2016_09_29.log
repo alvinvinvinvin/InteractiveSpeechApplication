@@ -1,0 +1,160 @@
+<LOG>
+  <SESSION>
+    <SAY>{S_Hello} Hello, this is Eliza Corp calling.</SAY>
+    <ASK NAME="NAME" RESPONSE="han1">{P_Name} What is your name?</ASK>
+    <ASK NAME="DO_YOU_MIND_QUESTIONS" RESPONSE="yes">{han1} han1, {P_Questions} may I ask you a few questions?</ASK>
+    <SAY>{S_Questions} Great! The following questions are about the interview process you just went through.</SAY>
+    <ASK NAME="INTERVIEW_LENGTH" RESPONSE="0">{P_InterviewLength} How long did the interview take? </ASK>
+    <SAY>{S_LessThan30} That’s a pretty short interview...</SAY>
+    <ASK NAME="REMEMBER_INTERVIEWERS" RESPONSE="yes">{P_RememberInterviewers} Do you remember whom you spoke with? </ASK>
+    <ASK NAME="WHO_INTERVIEWED" RESPONSE="mike1">{P_WhomSpokeTo} Whom did you speak with? </ASK>
+    <ASK NAME="ANSWERED_ALL" RESPONSE="yes">{P_AnsweredQuestions} Did they answer all your questions? </ASK>
+    <SAY>{S_Great} Great!</SAY>
+    <ASK NAME="" RESPONSE="yes">{P_TransferToSpeak} Would you like to be transferred to Eliza so that you could speak to someone there?</ASK>
+    <SAY>{S_Transferring} Transferring now...</SAY>
+    <TRANSFER DATE="Thursday, September 29, 2016" CURRENT_TIME="12:34:51" VALID="TRUE" />
+  </SESSION>
+  <SESSION>
+    <SAY>{S_Hello} Hello, this is Eliza Corp calling.</SAY>
+    <ASK NAME="NAME" RESPONSE="han2">{P_Name} What is your name?</ASK>
+    <ASK NAME="DO_YOU_MIND_QUESTIONS" RESPONSE="yes">{han2} han2, {P_Questions} may I ask you a few questions?</ASK>
+    <SAY>{S_Questions} Great! The following questions are about the interview process you just went through.</SAY>
+    <ASK NAME="INTERVIEW_LENGTH" RESPONSE="40">{P_InterviewLength} How long did the interview take? </ASK>
+    <ASK NAME="" RESPONSE="no">{P_WentWell} Do you think it went well? </ASK>
+    <ASK NAME="REMEMBER_INTERVIEWERS" RESPONSE="yes">{P_RememberInterviewers} Do you remember whom you spoke with? </ASK>
+    <ASK NAME="WHO_INTERVIEWED" RESPONSE="mike2">{P_WhomSpokeTo} Whom did you speak with? </ASK>
+    <ASK NAME="ANSWERED_ALL" RESPONSE="no">{P_AnsweredQuestions} Did they answer all your questions? </ASK>
+    <ASK NAME="" RESPONSE="no">{P_TransferWithQuestions} Would you like to be transferred to Eliza so that someone there could answer your questions? </ASK>
+    <SAY>{S_Alright} Alright...</SAY>
+    <SAY>{S_Goodbye_AM} We hope to be seeing you soon. Good luck and have a good day, {han2}han2.</SAY>
+  </SESSION>
+  <SESSION>
+    <SAY>{S_Hello} Hello, this is Eliza Corp calling.</SAY>
+    <ASK NAME="NAME" RESPONSE="han3">{P_Name} What is your name?</ASK>
+    <ASK NAME="DO_YOU_MIND_QUESTIONS" RESPONSE="yes">{han3} han3, {P_Questions} may I ask you a few questions?</ASK>
+    <SAY>{S_Questions} Great! The following questions are about the interview process you just went through.</SAY>
+    <ASK NAME="INTERVIEW_LENGTH" RESPONSE="10000">{P_InterviewLength} How long did the interview take? </ASK>
+    <SAY>{S_OverHour} That must have been brutal...</SAY>
+    <ASK NAME="REMEMBER_INTERVIEWERS" RESPONSE="no">{P_RememberInterviewers} Do you remember whom you spoke with? </ASK>
+    <ASK NAME="" RESPONSE="yes">{P_ForgotToIntroduce} Did the interviewers forget to introduce them selves?</ASK>
+    <SAY>{S_ForgotToIntroduce_Y} O-o, someone’s in trouble.</SAY>
+    <ASK NAME="" RESPONSE="yes">{P_TransferWithQuestions} Would you like to be transferred to Eliza so that someone there could answer your questions? </ASK>
+    <SAY>{S_Transferring} Transferring now...</SAY>
+    <TRANSFER DATE="Thursday, September 29, 2016" CURRENT_TIME="12:41:14" VALID="TRUE" />
+  </SESSION>
+  <SESSION>
+    <SAY>{S_Hello} Hello, this is Eliza Corp calling.</SAY>
+    <ASK NAME="NAME" RESPONSE="han4">{P_Name} What is your name?</ASK>
+    <ASK NAME="DO_YOU_MIND_QUESTIONS" RESPONSE="no">{han4} han4, {P_Questions} may I ask you a few questions?</ASK>
+    <ASK NAME="" RESPONSE="yes">{P_Busy} Are you too busy to answer my questions?</ASK>
+    <SAY>{S_TooBad} Too bad...</SAY>
+    <SAY>{S_Questions} Great! The following questions are about the interview process you just went through.</SAY>
+    <ASK NAME="INTERVIEW_LENGTH" RESPONSE="0">{P_InterviewLength} How long did the interview take? </ASK>
+    <SAY>{S_LessThan30} That’s a pretty short interview...</SAY>
+    <ASK NAME="REMEMBER_INTERVIEWERS" RESPONSE="no">{P_RememberInterviewers} Do you remember whom you spoke with? </ASK>
+    <ASK NAME="" RESPONSE="no">{P_ForgotToIntroduce} Did the interviewers forget to introduce them selves?</ASK>
+    <ASK NAME="" RESPONSE="yes">{P_ShouldHire} And you think we should hire you? </ASK>
+    <SAY>{S_ShouldHire_Y} We’ll see about that...</SAY>
+    <ASK NAME="" RESPONSE="no">{P_TransferWithQuestions} Would you like to be transferred to Eliza so that someone there could answer your questions? </ASK>
+    <SAY>{S_Alright} Alright...</SAY>
+    <SAY>{S_Goodbye_AM} We hope to be seeing you soon. Good luck and have a good day, {han4}han4.</SAY>
+  </SESSION>
+  <SESSION>
+    <SAY>{S_Hello} Hello, this is Eliza Corp calling.</SAY>
+    <ASK NAME="NAME" RESPONSE="han5">{P_Name} What is your name?</ASK>
+    <ASK NAME="DO_YOU_MIND_QUESTIONS" RESPONSE="no">{han5} han5, {P_Questions} may I ask you a few questions?</ASK>
+    <ASK NAME="" RESPONSE="no">{P_Busy} Are you too busy to answer my questions?</ASK>
+    <ASK NAME="" RESPONSE="i don't know">{P_Problem} Well what is the problem then?</ASK>
+    <SAY>{S_OhStopIt} Oh stop it...</SAY>
+    <SAY>{S_Questions} Great! The following questions are about the interview process you just went through.</SAY>
+    <ASK NAME="INTERVIEW_LENGTH" RESPONSE="50">{P_InterviewLength} How long did the interview take? </ASK>
+    <ASK NAME="" RESPONSE="i don't know">{P_WentWell} Do you think it went well? </ASK>
+    <ASK NAME="REMEMBER_INTERVIEWERS" RESPONSE="no">{P_RememberInterviewers} Do you remember whom you spoke with? </ASK>
+    <ASK NAME="" RESPONSE="no">{P_ForgotToIntroduce} Did the interviewers forget to introduce them selves?</ASK>
+    <ASK NAME="" RESPONSE="no">{P_ShouldHire} And you think we should hire you? </ASK>
+    <SAY>{S_ShouldHire_N} Don’t be so hard on your self. Interviews can be stressful.</SAY>
+    <ASK NAME="" RESPONSE="yes">{P_TransferWithQuestions} Would you like to be transferred to Eliza so that someone there could answer your questions? </ASK>
+    <SAY>{S_Transferring} Transferring now...</SAY>
+    <TRANSFER DATE="Thursday, September 29, 2016" CURRENT_TIME="12:43:31" VALID="TRUE" />
+  </SESSION>
+  <SESSION>
+    <SAY>{S_Hello} Hello, this is Eliza Corp calling.</SAY>
+    <ASK NAME="NAME" RESPONSE="han6">{P_Name} What is your name?</ASK>
+    <ASK NAME="DO_YOU_MIND_QUESTIONS" RESPONSE="no">{han6} han6, {P_Questions} may I ask you a few questions?</ASK>
+    <ASK NAME="" RESPONSE="yes">{P_Busy} Are you too busy to answer my questions?</ASK>
+    <SAY>{S_TooBad} Too bad...</SAY>
+    <SAY>{S_Questions} Great! The following questions are about the interview process you just went through.</SAY>
+    <ASK NAME="INTERVIEW_LENGTH" RESPONSE="-3">{P_InterviewLength} How long did the interview take? </ASK>
+    <SAY>{S_OverHour} That must have been brutal...</SAY>
+    <ASK NAME="REMEMBER_INTERVIEWERS" RESPONSE="yes">{P_RememberInterviewers} Do you remember whom you spoke with? </ASK>
+    <ASK NAME="WHO_INTERVIEWED" RESPONSE="mike6">{P_WhomSpokeTo} Whom did you speak with? </ASK>
+    <ASK NAME="ANSWERED_ALL" RESPONSE="no">{P_AnsweredQuestions} Did they answer all your questions? </ASK>
+    <TRANSFER DATE="Thursday, September 29, 2016" CURRENT_TIME="12:46:51" VALID="FALSE" />
+    <SAY>{S_OutsideHours} If you have any questions about the interview please give us a call.</SAY>
+    <SAY>{S_Goodbye_PM2} We hope to be seeing you soon. Good luck and have a good night, {han6}han6.</SAY>
+  </SESSION>
+  <SESSION>
+    <SAY>{S_Hello} Hello, this is Eliza Corp calling.</SAY>
+    <ASK NAME="NAME" RESPONSE="han7">{P_Name} What is your name?</ASK>
+    <ASK NAME="DO_YOU_MIND_QUESTIONS" RESPONSE="yes">{han7} han7, {P_Questions} may I ask you a few questions?</ASK>
+    <SAY>{S_Questions} Great! The following questions are about the interview process you just went through.</SAY>
+    <ASK NAME="INTERVIEW_LENGTH" RESPONSE="30">{P_InterviewLength} How long did the interview take? </ASK>
+    <SAY>{S_LessThan30} That’s a pretty short interview...</SAY>
+    <ASK NAME="REMEMBER_INTERVIEWERS" RESPONSE="no">{P_RememberInterviewers} Do you remember whom you spoke with? </ASK>
+    <ASK NAME="" RESPONSE="no">{P_ForgotToIntroduce} Did the interviewers forget to introduce them selves?</ASK>
+    <ASK NAME="" RESPONSE="no">{P_ShouldHire} And you think we should hire you? </ASK>
+    <SAY>{S_ShouldHire_N} Don’t be so hard on your self. Interviews can be stressful.</SAY>
+    <TRANSFER DATE="Thursday, September 29, 2016" CURRENT_TIME="12:48:36" VALID="FALSE" />
+    <SAY>{S_OutsideHours} If you have any questions about the interview please give us a call.</SAY>
+    <SAY>{S_Goodbye_PM2} We hope to be seeing you soon. Good luck and have a good night, {han7}han7.</SAY>
+  </SESSION>
+  <SESSION>
+    <SAY>{S_Hello} Hello, this is Eliza Corp calling.</SAY>
+    <ASK NAME="NAME" RESPONSE="han8">{P_Name} What is your name?</ASK>
+    <ASK NAME="DO_YOU_MIND_QUESTIONS" RESPONSE="yes">{han8} han8, {P_Questions} may I ask you a few questions?</ASK>
+    <SAY>{S_Questions} Great! The following questions are about the interview process you just went through.</SAY>
+    <ASK NAME="INTERVIEW_LENGTH" RESPONSE="10">{P_InterviewLength} How long did the interview take? </ASK>
+    <SAY>{S_LessThan30} That’s a pretty short interview...</SAY>
+    <ASK NAME="REMEMBER_INTERVIEWERS" RESPONSE="no">{P_RememberInterviewers} Do you remember whom you spoke with? </ASK>
+    <ASK NAME="" RESPONSE="yes">{P_ForgotToIntroduce} Did the interviewers forget to introduce them selves?</ASK>
+    <SAY>{S_ForgotToIntroduce_Y} O-o, someone’s in trouble.</SAY>
+    <TRANSFER DATE="Sunday, September 25, 2016" CURRENT_TIME="09:50:25" VALID="FALSE" />
+    <SAY>{S_OutsideHours} If you have any questions about the interview please give us a call.</SAY>
+    <SAY>{S_Goodbye_PM2} We hope to be seeing you soon. Good luck and have a good night, {han8}han8.</SAY>
+  </SESSION>
+    <SESSION>
+    <SAY>{S_Hello} Hello, this is Eliza Corp calling.</SAY>
+    <ASK NAME="NAME" RESPONSE="han8">{P_Name} What is your name?</ASK>
+    <ASK NAME="DO_YOU_MIND_QUESTIONS" RESPONSE="no">{han8} han8, {P_Questions} may I ask you a few questions?</ASK>
+    <ASK NAME="" RESPONSE="yes">{P_Busy} Are you too busy to answer my questions?</ASK>
+    <SAY>{S_TooBad} Too bad...</SAY>
+    <SAY>{S_Questions} Great! The following questions are about the interview process you just went through.</SAY>
+    <ASK NAME="INTERVIEW_LENGTH" RESPONSE="0">{P_InterviewLength} How long did the interview take? </ASK>
+    <SAY>{S_LessThan30} That’s a pretty short interview...</SAY>
+    <ASK NAME="REMEMBER_INTERVIEWERS" RESPONSE="no">{P_RememberInterviewers} Do you remember whom you spoke with? </ASK>
+    <ASK NAME="" RESPONSE="no">{P_ForgotToIntroduce} Did the interviewers forget to introduce them selves?</ASK>
+    <ASK NAME="" RESPONSE="no">{P_ShouldHire} And you think we should hire you? </ASK>
+    <SAY>{S_ShouldHire_N} Don’t be so hard on your self. Interviews can be stressful.</SAY>
+    <ASK NAME="" RESPONSE="yes">{P_TransferWithQuestions} Would you like to be transferred to Eliza so that someone there could answer your questions? </ASK>
+    <SAY>{S_Transferring} Transferring now...</SAY>
+    <TRANSFER DATE="Thursday, September 29, 2016" CURRENT_TIME="01:03:41" VALID="TRUE" />
+  </SESSION>
+  <SESSION>
+    <SAY>{S_Hello} Hello, this is Eliza Corp calling.</SAY>
+    <ASK NAME="NAME" RESPONSE="han9">{P_Name} What is your name?</ASK>
+    <ASK NAME="DO_YOU_MIND_QUESTIONS" RESPONSE="no">{han9} han9, {P_Questions} may I ask you a few questions?</ASK>
+    <ASK NAME="" RESPONSE="no">{P_Busy} Are you too busy to answer my questions?</ASK>
+    <ASK NAME="" RESPONSE="well, then">{P_Problem} Well what is the problem then?</ASK>
+    <SAY>{S_OhStopIt} Oh stop it...</SAY>
+    <SAY>{S_Questions} Great! The following questions are about the interview process you just went through.</SAY>
+    <ASK NAME="INTERVIEW_LENGTH" RESPONSE="-0">{P_InterviewLength} How long did the interview take? </ASK>
+    <SAY>{S_LessThan30} That’s a pretty short interview...</SAY>
+    <ASK NAME="REMEMBER_INTERVIEWERS" RESPONSE="no">{P_RememberInterviewers} Do you remember whom you spoke with? </ASK>
+    <ASK NAME="" RESPONSE="no">{P_ForgotToIntroduce} Did the interviewers forget to introduce them selves?</ASK>
+    <ASK NAME="" RESPONSE="yes">{P_ShouldHire} And you think we should hire you? </ASK>
+    <SAY>{S_ShouldHire_Y} We’ll see about that...</SAY>
+    <ASK NAME="" RESPONSE="yes">{P_TransferWithQuestions} Would you like to be transferred to Eliza so that someone there could answer your questions? </ASK>
+    <SAY>{S_Transferring} Transferring now...</SAY>
+    <TRANSFER DATE="Thursday, September 29, 2016" CURRENT_TIME="01:05:49" VALID="TRUE" />
+  </SESSION>
+</LOG>

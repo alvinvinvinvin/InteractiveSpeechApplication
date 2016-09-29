@@ -13,7 +13,11 @@ namespace InteractiveSpeechApplication.Module
         private List<Session> sessions = new List<Session>();
         public Log() { }
         //Default path to store log file.
-        private string path = "..\\..\\..\\Log\\Log.xml";
+        private static string currentDate = DateTime.Now.ToString("yyyy_MM_dd");
+        private static string fileExtendtion = ".log";
+        private static string fileName = "Han_Chen_TEST_APP_";
+        private static string fullFileName = fileName + currentDate + fileExtendtion;
+        private string path = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, fullFileName));
         public void recordSession(Session session)
         {
             sessions.Add(session);
